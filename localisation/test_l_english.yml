@@ -1,0 +1,57 @@
+﻿l_english:
+ open_event_screen_title:0 "Open modifier shop"
+ open_event_screen_desc:0 "Opens a shop window where you can buy modifiers for your nation."
+
+ buy_modifiers.0.t:0 "Modifier shop"
+ buy_modifiers.0.d:0 "Here you can buy all the awesome modifiers you want."
+ buy_modifiers.0.a:0 "Close"
+ buy_modifiers.0.b:0 "Level I"
+ buy_modifiers.0.c:0 "Level II"
+ buy_modifiers.0.e:0 "Level III"
+ buy_modifiers.0.f:0 "Level IV"
+ buy_modifiers.0.g:0 "Level V"
+
+ buy_modifiers.1.t:0 "Level I"
+ buy_modifiers.1.d:0 "First level modifiers"
+ buy_modifiers.1.a:0 "Close"
+ buy_modifiers.1.b:0 "Back"
+ buy_modifiers.1.c:0 "Religion I"
+
+ buy_modifiers_religion_1:0 "Religion I"
+ desc_buy_modifiers_religion_1:0 "The first level of the powerful religion modifier."
+
+ buy_modifiers.2.t:0 "Level II"
+ buy_modifiers.2.d:0 "Second level modifiers"
+ buy_modifiers.2.a:0 "Close"
+ buy_modifiers.2.b:0 "Back"
+ buy_modifiers.2.c:0 "Religion II"
+
+ buy_modifiers_religion_2:0 "Religion II"
+ desc_buy_modifiers_religion_2:0 "The second level of the powerful religion modifier."
+
+ buy_modifiers.4.t:0 "Level III"
+ buy_modifiers.4.d:0 "Third level modifiers"
+ buy_modifiers.4.a:0 "Close"
+ buy_modifiers.4.b:0 "Back"
+ buy_modifiers.4.c:0 "Religion III"
+
+ buy_modifiers_religion_4:0 "Religion III"
+ desc_buy_modifiers_religion_4:0 "The third level of the powerful religion modifier."
+
+ buy_modifiers.8.t:0 "Level IV"
+ buy_modifiers.8.d:0 "Fourth level modifiers"
+ buy_modifiers.8.a:0 "Close"
+ buy_modifiers.8.b:0 "Back"
+ buy_modifiers.8.c:0 "Religion IV"
+
+ buy_modifiers_religion_8:0 "Religion IV"
+ desc_buy_modifiers_religion_8:0 "The fourth level of the powerful religion modifier."
+
+ buy_modifiers.16.t:0 "Level V"
+ buy_modifiers.16.d:0 "Fifth level modifiers"
+ buy_modifiers.16.a:0 "Close"
+ buy_modifiers.16.b:0 "Back"
+ buy_modifiers.16.c:0 "Religion V"
+
+ buy_modifiers_religion_16:0 "Religion V"
+ desc_buy_modifiers_religion_16:0 "The fifth level of the powerful religion modifier."
