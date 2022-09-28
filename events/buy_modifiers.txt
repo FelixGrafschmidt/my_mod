@@ -17,7 +17,7 @@ country_event = {
 			factor = 0
 		}
 		trigger = {
-			total_development = 10
+			total_development = 20
 			treasury = 100
 		}
 		country_event = {
@@ -30,7 +30,7 @@ country_event = {
 			factor = 0
 		}
 		trigger = {
-			total_development = 20
+			total_development = 40
 			treasury = 200
 		}
 		country_event = {
@@ -43,11 +43,11 @@ country_event = {
 			factor = 0
 		}
 		trigger = {
-			total_development = 40
+			total_development = 80
 			treasury = 400
 		}
 		country_event = {
-			id = buy_modifiers.4
+			id = buy_modifiers.3
 		}
 	}
 	option = {
@@ -56,11 +56,11 @@ country_event = {
 			factor = 0
 		}
 		trigger = {
-			total_development = 80
+			total_development = 160
 			treasury = 800
 		}
 		country_event = {
-			id = buy_modifiers.8
+			id = buy_modifiers.4
 		}
 	}
 	option = {
@@ -69,11 +69,76 @@ country_event = {
 			factor = 0
 		}
 		trigger = {
-			total_development = 160
+			total_development = 320
 			treasury = 1600
 		}
 		country_event = {
-			id = buy_modifiers.16
+			id = buy_modifiers.5
+		}
+	}
+	option = {
+		name = buy_modifiers.0.h
+		ai_chance = {
+			factor = 0
+		}
+		trigger = {
+			total_development = 640
+			treasury = 3200
+		}
+		country_event = {
+			id = buy_modifiers.6
+		}
+	}
+	option = {
+		name = buy_modifiers.0.i
+		ai_chance = {
+			factor = 0
+		}
+		trigger = {
+			total_development = 1280
+			treasury = 6400
+		}
+		country_event = {
+			id = buy_modifiers.7
+		}
+	}
+	option = {
+		name = buy_modifiers.0.j
+		ai_chance = {
+			factor = 0
+		}
+		trigger = {
+			total_development = 2560
+			treasury = 12800
+		}
+		country_event = {
+			id = buy_modifiers.8
+		}
+	}
+	option = {
+		name = buy_modifiers.0.k
+		ai_chance = {
+			factor = 0
+		}
+		trigger = {
+			total_development = 5120
+			treasury = 25600
+		}
+		country_event = {
+			id = buy_modifiers.9
+		}
+	}
+	option = {
+		name = buy_modifiers.0.l
+		ai_chance = {
+			factor = 0
+		}
+		trigger = {
+			total_development = 10240
+			treasury = 51200
+		}
+		country_event = {
+			id = buy_modifiers.10
 		}
 	}
 }
@@ -160,6 +225,46 @@ country_event = {
 
 # Store Lvl 3
 country_event = {
+	id = buy_modifiers.3
+	title = buy_modifiers.3.t
+	desc = buy_modifiers.3.d
+	picture = CULTURE_eventPicture
+	is_triggered_only = yes
+	option = {
+		name = buy_modifiers.3.a
+		ai_chance = {
+			factor = 100
+		}
+	}
+	option = {
+		name = buy_modifiers.3.b
+		ai_chance = {
+			factor = 100
+		}
+		country_event = {
+			id = buy_modifiers.0
+		}
+	}
+	option = {
+		name = buy_modifiers.3.c
+		add_country_modifier = {
+			name = buy_modifiers_religion_3
+			duration = -1
+		}
+		trigger = {
+			not = {
+				has_country_modifier = buy_modifiers_religion_3
+			}
+		}
+		add_treasury = -400
+		country_event = {
+			id = buy_modifiers.3
+		}
+	}
+}
+
+# Store Lvl 4
+country_event = {
 	id = buy_modifiers.4
 	title = buy_modifiers.4.t
 	desc = buy_modifiers.4.d
@@ -191,14 +296,134 @@ country_event = {
 				has_country_modifier = buy_modifiers_religion_4
 			}
 		}
-		add_treasury = -400
+		add_treasury = -800
 		country_event = {
 			id = buy_modifiers.4
 		}
 	}
 }
 
-# Store Lvl 4
+# Store Lvl 5
+country_event = {
+	id = buy_modifiers.5
+	title = buy_modifiers.5.t
+	desc = buy_modifiers.5.d
+	picture = CULTURE_eventPicture
+	is_triggered_only = yes
+	option = {
+		name = buy_modifiers.5.a
+		ai_chance = {
+			factor = 100
+		}
+	}
+	option = {
+		name = buy_modifiers.5.b
+		ai_chance = {
+			factor = 100
+		}
+		country_event = {
+			id = buy_modifiers.0
+		}
+	}
+	option = {
+		name = buy_modifiers.5.c
+		add_country_modifier = {
+			name = buy_modifiers_religion_5
+			duration = -1
+		}
+		trigger = {
+			not = {
+				has_country_modifier = buy_modifiers_religion_5
+			}
+		}
+		add_treasury = -1600
+		country_event = {
+			id = buy_modifiers.5
+		}
+	}
+}
+
+# Store Lvl 6
+country_event = {
+	id = buy_modifiers.6
+	title = buy_modifiers.6.t
+	desc = buy_modifiers.6.d
+	picture = CULTURE_eventPicture
+	is_triggered_only = yes
+	option = {
+		name = buy_modifiers.6.a
+		ai_chance = {
+			factor = 100
+		}
+	}
+	option = {
+		name = buy_modifiers.6.b
+		ai_chance = {
+			factor = 100
+		}
+		country_event = {
+			id = buy_modifiers.0
+		}
+	}
+	option = {
+		name = buy_modifiers.6.c
+		add_country_modifier = {
+			name = buy_modifiers_religion_6
+			duration = -1
+		}
+		trigger = {
+			not = {
+				has_country_modifier = buy_modifiers_religion_6
+			}
+		}
+		add_treasury = -3200
+		country_event = {
+			id = buy_modifiers.6
+		}
+	}
+}
+
+# Store Lvl 7
+country_event = {
+	id = buy_modifiers.7
+	title = buy_modifiers.7.t
+	desc = buy_modifiers.7.d
+	picture = CULTURE_eventPicture
+	is_triggered_only = yes
+	option = {
+		name = buy_modifiers.7.a
+		ai_chance = {
+			factor = 100
+		}
+	}
+	option = {
+		name = buy_modifiers.7.b
+		ai_chance = {
+			factor = 100
+		}
+		country_event = {
+			id = buy_modifiers.0
+		}
+	}
+	option = {
+		name = buy_modifiers.7.c
+		add_country_modifier = {
+			name = buy_modifiers_religion_7
+			duration = -1
+		}
+		trigger = {
+			not = {
+				has_country_modifier = buy_modifiers_religion_7
+			}
+		}
+		add_treasury = -6400
+		country_event = {
+			id = buy_modifiers.7
+		}
+	}
+}
+
+# Store Lvl 8
 country_event = {
 	id = buy_modifiers.8
 	title = buy_modifiers.8.t
@@ -231,28 +456,28 @@ country_event = {
 				has_country_modifier = buy_modifiers_religion_8
 			}
 		}
-		add_treasury = -800
+		add_treasury = -12800
 		country_event = {
 			id = buy_modifiers.8
 		}
 	}
 }
 
-# Store Lvl 5
+# Store Lvl 9
 country_event = {
-	id = buy_modifiers.16
-	title = buy_modifiers.16.t
-	desc = buy_modifiers.16.d
+	id = buy_modifiers.9
+	title = buy_modifiers.9.t
+	desc = buy_modifiers.9.d
 	picture = CULTURE_eventPicture
 	is_triggered_only = yes
 	option = {
-		name = buy_modifiers.16.a
+		name = buy_modifiers.9.a
 		ai_chance = {
 			factor = 100
 		}
 	}
 	option = {
-		name = buy_modifiers.16.b
+		name = buy_modifiers.9.b
 		ai_chance = {
 			factor = 100
 		}
@@ -261,19 +486,59 @@ country_event = {
 		}
 	}
 	option = {
-		name = buy_modifiers.16.c
+		name = buy_modifiers.9.c
 		add_country_modifier = {
-			name = buy_modifiers_religion_16
+			name = buy_modifiers_religion_9
 			duration = -1
 		}
 		trigger = {
 			not = {
-				has_country_modifier = buy_modifiers_religion_16
+				has_country_modifier = buy_modifiers_religion_9
 			}
 		}
-		add_treasury = -1600
+		add_treasury = -25600
 		country_event = {
-			id = buy_modifiers.16
+			id = buy_modifiers.9
+		}
+	}
+}
+
+# Store Lvl 10
+country_event = {
+	id = buy_modifiers.10
+	title = buy_modifiers.10.t
+	desc = buy_modifiers.10.d
+	picture = CULTURE_eventPicture
+	is_triggered_only = yes
+	option = {
+		name = buy_modifiers.10.a
+		ai_chance = {
+			factor = 100
+		}
+	}
+	option = {
+		name = buy_modifiers.10.b
+		ai_chance = {
+			factor = 100
+		}
+		country_event = {
+			id = buy_modifiers.0
+		}
+	}
+	option = {
+		name = buy_modifiers.10.c
+		add_country_modifier = {
+			name = buy_modifiers_religion_10
+			duration = -1
+		}
+		trigger = {
+			not = {
+				has_country_modifier = buy_modifiers_religion_10
+			}
+		}
+		add_treasury = -51200
+		country_event = {
+			id = buy_modifiers.10
 		}
 	}
 }
